@@ -1,5 +1,5 @@
 # https://www.algoexpert.io/questions/find-closest-value-in-bst
-# Answer from Code Walkthrough
+# Answer Provided by AlgoExpert
 
 def findClosestValueInBst(tree, target):
     return find_closest_value_in_bst_helper(tree, target, float("inf"))
