@@ -1,7 +1,7 @@
 # https://www.algoexpert.io/questions/branch-sums
+# Referred to a code by "Yegor Yegorov".
 
 
-# Referred to a code by Yegor Yegorov.
 def alt_branch_sums(root):
     if root is None:
         return []
