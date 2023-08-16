@@ -1,5 +1,6 @@
 # https://www.algoexpert.io/questions/palindrome-check
 
+
 def isPalindrome(string: str):
     reversed_string = ""
 

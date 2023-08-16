@@ -1,5 +1,6 @@
 # https://www.algoexpert.io/questions/validate-subsequence
 
+
 def isValidSubsequence(array, sequence):
     array_selected = []
     sequence_last_found_i = 0

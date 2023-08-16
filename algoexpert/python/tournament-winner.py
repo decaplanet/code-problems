@@ -1,5 +1,6 @@
 # https://www.algoexpert.io/questions/tournament-winner
 
+
 def tournamentWinner(competitions, results):
     home_list = []
     away_list = []

@@ -1,5 +1,6 @@
 # https://www.algoexpert.io/questions/non-constructible-change
 
+
 def nonConstructibleChange(coins):
     sorted_coins = sorted(coins)
     current_coin_sum = 0
