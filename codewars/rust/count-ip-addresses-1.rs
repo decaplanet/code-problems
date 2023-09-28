@@ -35,7 +35,7 @@ pub mod answer {
 
 #[cfg(test)]
 mod tests {
-    use crate::answer::ips_between;
+    use super::answer::ips_between;
 
     #[test]
     fn basic() {

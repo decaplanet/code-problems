@@ -25,7 +25,7 @@ pub mod answer {
 
 #[cfg(test)]
 mod sample_tests {
-    use self::super::answer::*;
+    use super::answer::rgb;
 
     #[test]
     fn tests() {

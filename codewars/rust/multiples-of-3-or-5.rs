@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/514b92a657cdc65150000006/
+
 pub mod answer {
     pub fn solution(num: i32) -> i32 {
         if num < 0 {
@@ -19,7 +21,7 @@ pub mod answer {
 }
 
 mod tests {
-    use crate::answer::solution;
+    use super::answer::solution;
 
     #[test]
     fn sample_tests() {

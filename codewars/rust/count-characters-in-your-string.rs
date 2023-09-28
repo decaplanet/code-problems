@@ -19,7 +19,7 @@ pub mod answer {
 
 #[cfg(test)]
 mod tests {
-    use crate::answer::count;
+    use super::answer::count;
     use std::collections::HashMap;
 
     const ERR_MSG: &str = "\nYour result (left) did not match the expected output (right)";
