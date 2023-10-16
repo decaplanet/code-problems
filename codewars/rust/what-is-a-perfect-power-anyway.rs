@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/54d4c8b08776e4ad92000835
+
 pub mod answer {
     pub fn is_perfect_power(n: u64) -> Option<(u64, u32)> {
         for i in 2..(get_floor_sqrt(n) + 1) {
