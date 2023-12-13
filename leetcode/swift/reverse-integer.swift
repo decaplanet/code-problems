@@ -12,7 +12,6 @@ class Solution {
         let str = String(x)
         
         for item in str.reversed() {
-
             if let digit = Int(String(item)) {
                 newStr.append(String(digit))
             }
