@@ -27,11 +27,11 @@ def tournamentWinner(competitions, results):
                     is_found = True
                     two["count"] += 1
 
-            if is_found == False:
+            if is_found is False:
                 winner_arr.append({"name": one, "count": 0})
 
     for one in winner_arr:
-        if final_winner == None:
+        if final_winner is None:
             final_winner = one
         else:
             if one["count"] > final_winner["count"]:
