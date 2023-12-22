@@ -14,7 +14,7 @@ impl Solution {
             }
         }
 
-        // This should never happen, but it's good to have a fallback
+        // Fallback. Should never happen.
         '_'
     }
 }
